@@ -48,7 +48,7 @@ def update():
         camera.z -= 1
 
 app = Ursina()
-sun = Entity(model = 'sphere',texture = 'texture/download.jpg',scale = 2)
+sun = Entity(model = 'sphere',texture = 'download.jpg',scale = 2)
 class Sphere(Button):
     def __init__(self, x, cost):
         super().__init__()
@@ -57,9 +57,9 @@ class Sphere(Button):
         # random texture
         RT = random.randint(0,1)
         if RT == 0:
-            self.texture = 'texture/MoonMap2_2500x1250.jpg'
+            self.texture = 'MoonMap2_2500x1250.jpg'
         else:
-            self.texture = 'texture/jSGZg.jpg'
+            self.texture = 'jSGZg.jpg'
         self.color = color.random_color()
         self.x = i - 20
         self.scale = random.uniform(0.01,0.9)
@@ -105,5 +105,5 @@ def Pause():
 pause = Button(parent = camera.ui,model = 'quad',texture = 'pause (1).png',scale = (0.09,0.09),y = 0.35,x = 0.83,color = color.white)
 pause.on_click = Pause
 # sky
-Sky(texture = 'texture/seamless space_0.png')
+Sky(texture = 'seamless space_0.png')
 app.run()
