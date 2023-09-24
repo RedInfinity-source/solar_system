@@ -1,0 +1,48 @@
+# Solar System Clicker Game
+
+This repository contains a simple clicker game developed using the Ursina game engine. In this game, you can interact with a solar system and earn money by clicking on celestial objects. Use your earnings to buy new objects and expand your solar system!
+
+## Game Overview
+
+- Click on the sun to earn money.
+- Purchase rings and celestial objects to increase your earnings.
+- Explore the solar system and watch the planets rotate.
+
+## How to Play
+
+1. Clone this repository to your local machine:
+git clone https://github.com/YourUsername/SolarSystemClicker.git
+
+    Navigate to the project directory:
+cd SolarSystemClicker
+
+    Run the game script:
+python main.py
+
+    Play the game and have fun!
+
+Gameplay Controls
+
+    Click on the sun to earn money.
+    Purchase rings and celestial objects by clicking on them.
+    Use the arrow keys to navigate the camera:
+        "W" and "S" keys: Move the camera forward and backward.
+        "A" and "D" keys: Move the camera left and right.
+        "Q" and "E" keys: Rotate the camera.
+        "X" key: Reset the camera position.
+
+Features
+
+    Interactive solar system with rotating celestial objects.
+    Randomized prices and textures for celestial objects.
+    Pause button to stop and resume the game.
+
+Customize and Extend
+
+Feel free to customize and extend the game according to your preferences. You can add more celestial objects, implement new gameplay features, or improve the graphics.
+Dependencies
+
+    Ursina: A Python game engine for creating 2D and 3D games.
+
+You can install Ursina using pip:
+pip install ursina
