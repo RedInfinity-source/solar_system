@@ -1,4 +1,4 @@
-# solar_system
+# SolarSystem
 
 This Python-based simulation game aims to players to manage a space-themed environment by strategically placing spheres and managing resources. The game features interactive controls, buttons for pause and resuming gameplay, and textured models for sun, spheres, and rings. It also includes text displays for player feedback. The game offers a simple yet engaging experience for resource management and exploration.
 
