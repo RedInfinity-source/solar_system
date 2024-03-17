@@ -22,3 +22,7 @@ The Python-based simulation game, Space-themed, offers players the role of manag
 random, ursina
 
 # Rating
+
+For its functionality, organization, and visuals. It displays spheres with random textures and handles user interactions, such as clicking on spheres to purchase them. The code is organized into sections for different functionalities, making it easier to understand each part. The use of textures and random colors for spheres adds visual interest to the scene. However, there are areas for improvement, such as more descriptive variable names, improved code readability, and better documentation.
+Input handling should be handled in the 'update' function or a dedicated function, and global variables should be minimized to make code easier to reason about and maintain. Consistent style and error handling mechanisms should be implemented, especially in unexpected errors like file loading or user input.
+Optimization is needed for performance, especially when dealing with large numbers of entities or complex computations. UI improvements should be made visually appealing and organized, using UI containers or layouts. Testing is crucial to ensure all features work as expected and handle edge cases gracefully. Improving these aspects will make the code more robust, enhance its readability and maintainability, and ultimately contribute to the project's long-term success.
